@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mybutton"
+        android:icon="@drawable/ic_baseline_local_printshop_24"
+        android:title=""
+        android:iconTint="@color/white"
+        app:showAsAction="always" />
+</menu>

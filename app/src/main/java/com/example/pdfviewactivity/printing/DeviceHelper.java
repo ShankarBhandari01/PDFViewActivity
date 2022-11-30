@@ -1,4 +1,4 @@
-package com.example.pdfviewactivity;
+package com.example.pdfviewactivity.printing;
 
 import android.content.ComponentName;
 import android.content.Context;

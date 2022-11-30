@@ -1,7 +1,6 @@
-package com.example.pdfviewactivity
+package com.example.pdfviewactivity.printing
 
 import androidx.multidex.MultiDexApplication
-import com.example.pdfviewactivity.root_dections.RootUtil
 
 class App : MultiDexApplication() {
     override fun onCreate() {

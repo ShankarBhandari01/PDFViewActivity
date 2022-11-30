@@ -1,4 +1,4 @@
-package com.example.pdfviewactivity
+package com.example.pdfviewactivity.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -11,7 +11,7 @@ class AdapterDetails constructor(
 ) :
     RecyclerView.Adapter<AdapterDetails.myHolder>() {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AdapterDetails.myHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): myHolder {
         return myHolder(
             RvViewBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         )

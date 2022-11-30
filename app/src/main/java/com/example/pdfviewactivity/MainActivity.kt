@@ -7,8 +7,10 @@ import android.view.MenuItem
 import android.view.View
 import android.view.animation.TranslateAnimation
 import androidx.appcompat.app.AppCompatActivity
+import com.example.pdfviewactivity.adapter.AdapterDetails
 import com.example.pdfviewactivity.databinding.ActivityMainBinding
-import com.example.pdfviewactivity.root_dections.RootUtil
+import com.example.pdfviewactivity.printing.DeviceHelper
+import com.example.pdfviewactivity.utiils.root_dections.RootUtil
 import com.usdk.apiservice.aidl.printer.AlignMode
 import com.usdk.apiservice.aidl.printer.OnPrintListener
 

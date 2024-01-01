@@ -126,12 +126,7 @@ public final class DeviceHelper implements ServiceConnection {
 
         // 绑定失败, 则重新绑定
         if (!bindSucc && retry++ < MAX_RETRY_COUNT) {
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    bindService();
-                }
-            }, RETRY_INTERVALS);
+            new Handler().postDelayed(() -> bindService(), RETRY_INTERVALS);
         }
     }
 
